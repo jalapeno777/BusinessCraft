@@ -1,0 +1,13 @@
+main: com.eaveecraft.plugins.businesscraft.BusinessCraft
+name: BusinessCraft
+version: 0.1 alpha
+author: Jalapeno777
+description: Plugin designed to allow for proper business management and investing
+depend: [Vault]
+commands:
+    createbusiness:
+        description: Create a new business
+        usage: /<command>
+    checkfunds:
+        description: Test command to check balance is hooked into vault
+        usage: /<command>
